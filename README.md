@@ -1,62 +1,219 @@
-# JavaGuide面试突击版
+PassJava 项目全套学习教程连载中，[关注公众号](#公众号)第一时间获取。
 
-原创不易，你的认可就是我前进路上最大的动力。欢迎关注我的公众号: **JavaGuide** 获取更多优质原创内容！
+可落地的 Spring Cloud项目：`PassJava` https://github.com/Jackson0714/PassJava-Platform
 
-如果文章有任何需要改善和完善的地方，欢迎在评论区指出，共同进步！
+# PassJava 学习教程
 
-- 在线阅读地址：https://snailclimb.gitee.io/javaguide-interview/#/
-- Github：https://github.com/Snailclimb/JavaGuide-Interview
-- 码云：https://gitee.com/SnailClimb/JavaGuide-Interview
+## 部署教程
 
-## 如何学习本项目
+- [Mac M1 部署项目](http://www.passjava.cn/#/01.项目简介/7.本地部署项目Mac版)
 
-提供了非常详细的目录，建议可以从头开始看一遍，如果基础不错的话也可以挑自己需要的章节查看。看的过程中自己要多思考，碰到不懂的地方，自己记得要勤搜索，需要记忆的地方也不要吝啬自己的脑子。
+Windows 版正在更新中，可参考 Mac 版的部署教程。
 
-## 关于更新
 
-**《JavaGuide 面试突击版》** 预计一个月左右会有一次内容更新和完善，大家在我的公众号 **JavaGuide** 后台回复**“面试突击”** 即可获取最新版！另外，为了保证自己的辛勤劳动不被恶意盗版滥用，所以我添加了水印并且在一些内容注明版权，希望大家理解。
+前后端都在这个仓库：
 
-![我的公众号](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/167598cd2e17b8ec.png)
 
-## 如何贡献
+- 后台代码地址：https://github.com/Jackson0714/PassJava-Platform
 
-**大家阅读过程中如果遇到错误的地方可以直接在 [Github](https://github.com/Snailclimb/JavaGuide-Interview) 提交 issue 或者 pr,最欢迎 pr 的形式～～～**
+:heavy_check_mark: [后端部署教程](http://www.passjava.cn/#/01.项目简介/7.本地部署项目Mac版)
 
-当然你也可以通过微信: _JavaGuide1996_ 或者邮箱：*koushuangbwcx@163.com*与我交流（ps:加过我微信的就不要重复添加了，这是另外一个账号，前一个已经满了）。
+- 前端 Vue 代码地址：https://github.com/Jackson0714/PassJava-Platform/tree/master/passjava-portal
 
-希望大家给我提反馈的时候可以按照如下格式：
+:heavy_check_mark: [前端部署教程](https://github.com/Jackson0714/PassJava-Platform/tree/master/passjava-portal)
 
-> 我觉得 2.3 节 Java 基础的 2.3.1 这部分的描述有问题，应该这样描述：～巴拉巴拉～ 会更好！具体可以参考 Oracle 官方文档，地址：~~~~。
+- 小程序代码地址：https://github.com/Jackson0714/PassJava-Platform/tree/master/passjava-miniApp
 
-为了提高准确性以及不必要的时间花费，希望大家尽量确保自己想法的准确性。
+:heavy_check_mark: [小程序部署教程](https://github.com/Jackson0714/PassJava-Platform/blob/master/passjava-miniApp/README.md)
 
-## 关于本开源文档
 
-JavaGuide 目前已经 70k+ Star ，目前已经是所有 Java 类别项目中 Star 数量第二的开源项目了。Star 虽然很多，但是价值远远比不上 Dubbo 这些开源项目，希望以后可以多出现一些这样的国产开源项目。国产开源项目！加油！奥利给！
+## 简介
 
-随着越来越多的人参与完善这个项目，这个专注 “Java 知识总结+面试指南 ” 项目的知识体系和内容的不断完善。JavaGuide 目前包括下面这两部分内容：
+- PassJava-Learning项目是PassJava（佳必过）项目的学习教程。对架构、业务、技术要点进行讲解。
+- PassJava 是一款Java`面试刷题`的开源系统，可以用零碎时间利用小程序查看常见面试题，夯实Java基础。
+- PassJava 项目可以教会你如何搭建SpringBoot项目，Spring Cloud项目
+- 采用流行的技术，如 SpringBoot、MyBatis、Redis、 MySql、 MongoDB、 RabbitMQ、Elasticsearch，采用Docker容器化部署。
 
-1. **Java 核心知识总结**；
-2. **面试方向**：面试题、面试经验、备战面试系列文章以及面试真实体验系列文章
+## 更好的阅读体验
 
-内容的庞大让 JavaGuide 显的有一点臃肿。所以，我决定将专门为 Java 面试所写的文章以及来自读者投稿的文章整理成 **《JavaGuide 面试突击版》** 系列，起这个名字也犹豫了很久，大家如果有更好的名字的话也可以向我建议。暂时的定位是将其作为 PDF 电子书，并不会像 JavaGuide 提供在线阅读版本。我之前也免费分享过 PDF 版本的《Java 面试突击》，期间一共更新了 3 个版本，但是由于后面难以同步和订正所以就没有再更新。**《JavaGuide 面试突击版》** pdf 版由于我工作流程的转变可以有效避免这个问题。
+- 文档地址：[http://www.passjava.cn](http://www.passjava.cn)
+- 备用地址1：[https://jackson0714.github.io/PassJava-Learning](https://jackson0714.github.io/PassJava-Learning/) 
+- 备用地址2：http://jayh2018.gitee.io/passjava-learning/#/README
 
-另外，这段时间，向我提这个建议的读者也不是一个两个，我自己当然也有这个感觉。只是自己一直没有抽出时间去做罢了！毕竟这算是一个比较耗费时间的工程。
+## PassJava 教程连载目录
 
-这件事情具体耗费时间的地方是内容的排版优化（为了方便导出 PDF 生成目录），导出 PDF 我是通过 Typora 来做的。
+- [打造一款 刷Java 知识的小程序](https://www.cnblogs.com/jackson0714/p/passJava1.html)
+- [打造一款 刷Java 知识的小程序（二）](https://www.cnblogs.com/jackson0714/p/passJava2.html)
+- [01.五分钟搞懂分布式基础概念](http://www.passjava.cn/#/04.SpringCloud学习篇/01.分布式基础概念)
+- [02.快速搭建Linux环境-运维必备](http://www.passjava.cn/#/05.安装部署篇/01.环境搭建篇)
+- [03.配置虚拟机网络](http://www.passjava.cn/#/05.安装部署篇/02.配置虚拟机网络)
+- [04.安装Docker](http://www.passjava.cn/#/05.安装部署篇/03.安装docker)
+- [05.Docker安装mysql](http://www.passjava.cn/#/05.安装部署篇/04.docker安装mysql)
+- [06.Docker安装redis](http://www.passjava.cn/#/05.安装部署篇/05.docker安装redis)
+- [07.本地开发环境配置](http://www.passjava.cn/#/05.安装部署篇/06.本地开发环境配置)
+- [08.配置Git](http://www.passjava.cn/#/05.安装部署篇/07.配置git)
+- [09.初始化项目和添加微服务](http://www.passjava.cn/#/02.PassJava架构篇/01.创建项目和添加模块)
+- [10.PassJava-微服务划分图](http://www.passjava.cn/#/01.项目简介/3.微服务划分图)
+- [11.初始化数据库和表](http://www.passjava.cn/#/02.PassJava架构篇/02.创建数据库和表)
+- [12.搭建管理后台](http://www.passjava.cn/#/02.PassJava架构篇/03.搭建管理后台)
+- [13.自动生成前后端代码](http://www.passjava.cn/#/02.PassJava架构篇/04.自动生成前后端代码)
+- [14.整合MyBatis-Plus实现CRUD](http://www.passjava.cn/#/02.PassJava架构篇/05.整合MyBatis-Plus实现CRUD)
+- [15.生成所有微服务的CRUD代码](http://www.passjava.cn/#/02.PassJava架构篇/06.生成所有微服务的CRUD代码)
+- [16.Spring Cloud Alibaba 组件简介](http://www.passjava.cn/#/02.PassJava架构篇/07.SpringCloudAlibaba组件简介)
+- [17.SpringCloud整合Alibaba-Nacos注册中心](http://www.passjava.cn/#/02.PassJava架构篇/08.SpringCloud整合Alibaba-Nacos组件)
+- [18.SpringCloud整合OpenFeign组件](http://www.passjava.cn/#/02.PassJava架构篇/09.SpringCloud整合OpenFeign组件)
+- [19.SpringCloud整合Alibaba-Nacos配置中心](http://www.passjava.cn/#/02.PassJava架构篇/10.SpringCloud整合Nacos配置中心)
+- [20.SpringCloud整合Gateway网关](http://www.passjava.cn/#/02.PassJava架构篇/11.SpringCloud整合Gateway网关)
+- [21.管理后台-题目类型功能](http://www.passjava.cn/#/06.PassJava业务篇/01.管理后台-题目类型功能)
+- [22.SpringCloud整合OSS对象存储](http://www.passjava.cn/#/02.PassJava架构篇/12.SpringCloud整合OSS对象存储)
+- [23.整合统一异常处理](http://www.passjava.cn/#/02.PassJava架构篇/13.整合统一异常处理.md)
+- [24.Elasticsearch上篇（原理）](http://www.passjava.cn/#/02.PassJava架构篇/14.Elasticsearch原理.md)
+- [25.Elasticsearch中篇（实战）](http://www.passjava.cn/#/02.PassJava架构篇/15.Elasticsearch实战.md)
+- [26.Elasticsearch下篇（集群部署）更新中](http://www.passjava.cn/#/02.PassJava架构篇/16.Elasticsearch集群部署.md)
+- [27.微服务架构中的链路追踪](http://www.passjava.cn/#/02.PassJava架构篇/17.微服务架构中的链路追踪.md)
+- [28.48张图手摸手教你性能压测](http://www.passjava.cn/#/02.PassJava架构篇/18.48张图手摸手教你性能压测.md)
+- [29.缓存实战（一）](http://www.passjava.cn/#/02.PassJava架构篇/19.缓存实战（一）.md)
+- [30.缓存实战（二）Redis分布式锁](http://www.passjava.cn/#/02.PassJava架构篇/22.缓存实战（二）Redis分布式锁.md)
+- [31.缓存实战（三）Redisson分布式锁](http://www.passjava.cn/#/02.PassJava架构篇/23.缓存实战（三）Redisson分布式锁.md)
 
-## 如何赞赏
+## 小程序演示
 
-如果觉得本文档对你有帮助的话，欢迎加入我的知识星球。**为啥要做知识星球？** 第一， 我创建知识星球主要是为了加深和大家的交流以及将知识沉淀下来（微信群只适合用来实时交流）。第二，我想通过这个平台，借助自身的认知，切实地帮助到一些需要帮助的小伙伴。
+![](http://cdn.jayh.club/blog/20200405/ik8h4UItdnSA.jpg?imageslim)
 
-经历了一年的沉淀， 我的星球总用户已经接近 4000。我会定期在星球回答读者的问题，还会分享自己的一些技术思考以及看的一些比较有意思的开源项目/网站/工具。这一年，星球一共有 1125+条主题，我累计回答了接近 450 个问题，并且为 60+位球友提供了免费的简历修改服务。
+![](http://cdn.jayh.club/blog/20200405/pjfJNfuiXVnF.gif)
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2021-1/image-20210102184923199.png)
+## 项目地址
 
-另外的话，我的两个小专栏《从零开始写一个 RPC 框架》（已更新完） 和 《Java 面试小册》（新开的坑）都会在星球内更新。
+[PassJava](https://github.com/Jackson0714/PassJava-Platform)
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2021-1/image-20210102174713582.png)
+## 介绍
 
-**新人优惠券：**
+- [PassJava 架构及功能概览](http://www.passjava.cn/#/01.项目简介/2.项目微服务架构图)
+- [PassJava 学习所需知识点](http://www.passjava.cn/#/01.项目简介/5.项目前置要求)
 
-![](https://cdn.jsdelivr.net/gh/javaguide-tech/image-host-github-stars-01@main/TeachYourselfCS/3179f53e9518b4f91e0889c3e588c5c7206c886477d7a54a773d25154d702f0f.png)
+## 架构篇
+
+> 手把手教你搭建一个PassJava 中使用的 SpringCloud框架
+
+- [01.初始化项目和添加微服务](http://www.passjava.cn/#/02.PassJava架构篇/01.创建项目和添加模块)
+- [02.PassJava-微服务划分图](http://www.passjava.cn/#/01.项目简介/3.微服务划分图)
+- [03.初始化数据库和表](http://www.passjava.cn/#/02.PassJava架构篇/02.创建数据库和表)
+- [04.搭建管理后台](http://www.passjava.cn/#/02.PassJava架构篇/03.搭建管理后台)
+- [05.自动生成前后端代码](http://www.passjava.cn/#/02.PassJava架构篇/04.自动生成前后端代码)
+- [06.整合MyBatis-Plus实现CRUD](http://www.passjava.cn/#/02.PassJava架构篇/05.整合MyBatis-Plus实现CRUD)
+- [07.生成所有微服务的CRUD代码](http://www.passjava.cn/#/02.PassJava架构篇/06.生成所有微服务的CRUD代码)
+- [08.Spring Cloud Alibaba 组件简介](http://www.passjava.cn/#/02.PassJava架构篇/07.SpringCloudAlibaba组件简介)
+- [09.SpringCloud整合Alibaba-Nacos注册中心](http://www.passjava.cn/#/02.PassJava架构篇/08.SpringCloud整合Alibaba-Nacos组件)
+- [10.SpringCloud整合OpenFeign组件](http://www.passjava.cn/#/02.PassJava架构篇/09.SpringCloud整合OpenFeign组件)
+- [11.SpringCloud整合Alibaba-Nacos配置中心](http://www.passjava.cn/#/02.PassJava架构篇/10.SpringCloud整合Nacos配置中心)
+- [12.SpringCloud整合Gateway网关](http://www.passjava.cn/#/02.PassJava架构篇/11.SpringCloud整合Gateway网关)
+- [13.SpringCloud整合OSS对象存储](http://www.passjava.cn/#/02.PassJava架构篇/12.SpringCloud整合OSS对象存储)
+- [14.整合统一异常处理](http://www.passjava.cn/#/02.PassJava架构篇/13.整合统一异常处理)
+- [14.Elasticsearch上篇（原理）](http://www.passjava.cn/#/02.PassJava架构篇/14.Elasticsearch原理)
+- [15.Elasticsearch中篇（实战）](http://www.passjava.cn/#/02.PassJava架构篇/15.Elasticsearch实战.md)
+- [16.Elasticsearch下篇（集群部署）更新中](http://www.passjava.cn/#/02.PassJava架构篇/16.Elasticsearch集群部署.md)
+- [17.微服务架构中的链路追踪](http://www.passjava.cn/#/02.PassJava架构篇/17.微服务架构中的链路追踪.md)
+- [18.48张图手摸手教你性能压测](http://www.passjava.cn/#/02.PassJava架构篇/18.48张图手摸手教你性能压测.md)
+- [29.缓存实战（一）](http://www.passjava.cn/#/02.PassJava架构篇/19.缓存实战（一）.md)
+- [30.缓存实战（二）Redis分布式锁](http://www.passjava.cn/#/02.PassJava架构篇/22.缓存实战（二）Redis分布式锁.md)
+- [31.缓存实战（三）Redisson分布式锁](http://www.passjava.cn/#/02.PassJava架构篇/23.缓存实战（三）Redisson分布式锁.md)
+- 
+## Java并发多线程
+
+> 从源码层面详细讲解并发多线程
+
+- [01.反制面试官-14张原理图-再也不怕被问volatile!](https://juejin.im/post/6861885337568804871)
+- [02.我跟老婆讲CAS原理，被鄙视太简单！15张图 -源码调试 .md](https://juejin.im/post/6863799243182702599)
+- [03.Java并发必知必会第三弹：用积木讲解ABA原理.md](https://juejin.im/post/6864945088721027079)
+- [04.全网最细-21张图带你领略集合的线程不安全](https://juejin.im/post/6866444584688451591)
+- [05.5000字 | 24张图带你彻底理解Java中的21种锁](https://juejin.im/post/6867922895536914446)
+- [06.干货 | 45张图庖丁解牛18种Queue，你知道几种？](https://juejin.im/post/6870298844425371655)
+
+## 分布式
+
+- [01.分布式基础概念](http://www.passjava.cn/#/92.分布式/01.分布式基础概念.md)
+- [02.这三年被分布式坑惨了，曝光十大坑](http://www.passjava.cn/#/92.分布式/02.分布式中的十种坑.md)
+- [03.用三国杀讲分布式算法，舒适了吧？](http://www.passjava.cn/#/92.分布式/03.用三国杀讲分布式算法，舒适了吧？.md)
+- [04.用太极拳讲分布式理论，舒服！](http://www.passjava.cn/#/92.分布式/04.用太极拳讲分布式理论，舒服！.md)
+- [05.诸葛VS庞统，拿下Paxos](http://www.passjava.cn/#/92.分布式/05.诸葛VS庞统，拿下Paxos.md)
+- [06.用动图讲解分布式Raft](http://www.passjava.cn/#/92.分布式/06.用动图讲解分布式Raft.md)
+- [07.韩信大招：一致性哈希](http://www.passjava.cn/#/92.分布式/07.韩信大招：一致性哈希.md)
+- [08.Gossip协议](http://www.passjava.cn/#/92.分布式/08.Gossip协议.md)
+- [09.QuorumNWR算法](http://www.passjava.cn/#/92.分布式/09.QuorumNWR算法.md)
+- [10.区块链12问和Pow算法](http://www.passjava.cn/#/92.分布式/10.区块链12问.md)
+
+## 悟空故事汇
+- [01.如果消息队列都在一个群里，他们会聊什么？](http://www.passjava.cn/#/90.悟空群聊/1.如果消息队列都在一个群里，他们会聊什么？.md)
+- [02.我是一个秒杀请求，正在逃离这颗星球](http://www.passjava.cn/#/91.悟空讲故事/01.我是一个秒杀请求，正在逃离这颗星球.md)
+- [03.东汉末年，他们把熔断限流玩到了极致](http://www.passjava.cn/#/91.悟空讲故事/02.东汉末年，他们把熔断限流玩到了极致.md)
+
+## 悟空学习群问题汇总
+- [01.悟空群聊问题20201026-删除binlog问题](http://www.passjava.cn/#/102.学习群问题汇总/01.20201026_删除binlog问题.md)
+- [02.悟空群聊问题20201028_导出报表问题](http://www.passjava.cn/#/102.学习群问题汇总/02.20201028_导出报表问题.md)
+- [03.悟空群聊问题20201030_List和ArrayList如何选择](http://www.passjava.cn/#/102.学习群问题汇总/03.20201030_List和ArrayList如何选择.md)
+## 群成员学习分享
+- [01.Nginx Location 正则](http://www.passjava.cn/#/104.群成员学习分享/01.NginxLocation正则.md)
+
+## JVM
+- [01.50+道JVM面试题+11张思维导图就是让你懂JVM](http://www.passjava.cn/#/09.JVM进阶/01.50+道JVM面试题+11张思维导图就是让你懂JVM.md)
+- [02.秒懂JVM的三大参数类型，就靠这十个小实验了](http://www.passjava.cn/#/09.JVM进阶/02.秒懂JVM的三大参数类型，就靠这十个小实验了.md)
+- [98.字节码指令表](http://www.passjava.cn/#/09.JVM进阶/98.字节码指令表.md)
+- [99.JVM参数列表](http://www.passjava.cn/#/09.JVM进阶/99.JVM参数列表.md)
+
+## 工具篇
+
+> 一些常用开发工具的使用
+
+- [01.自定义Markdown神器Typora的主题样式](https://juejin.im/post/6864745378558771214)
+- [02.使用docsify写开源文档](http://www.passjava.cn/#/99.tools/02.使用docsify写开源文档)
+- [03.Git同时上传到码云和github](https://juejin.im/post/6859388700858679303)
+- [04.图床神器配置](http://www.passjava.cn/#/99.tools/04.图床神器配置)
+- [05.我的常用工具](http://www.passjava.cn/#/99.tools/05.我的常用工具)
+- [06.Idea的十八般武艺](http://www.passjava.cn/#/99.tools/06.Idea的十八般武艺)
+- [93.IDEA快捷键](http://www.passjava.cn/#/99.tools/93.IDEA快捷键)
+- [94.Ubuntu16.04安装最新版nodejs](http://www.passjava.cn/#/99.tools/94.Ubuntu16_04安装最新版nodejs)
+- [95.VSCode快速生成Vue模板](http://www.passjava.cn/#/99.tools/95.VSCode快速生成Vue模板)
+- [96.HTML特殊符号](http://www.passjava.cn/#/99.tools/96.HTML特殊符号)
+- [97.IDEA设置代码彩虹颜色](http://www.passjava.cn/#/99.tools/97.IDEA设置代码彩虹颜色)
+- [98.IDEA调试Java多线程](http://www.passjava.cn/#/99.tools/98.IDEA调试Java多线程)
+- [99.IDEA调试Java源码](http://www.passjava.cn/#/99.tools/99.IDEA调试Java源码)
+
+## 业务篇
+
+> 全面解析 PassJava 中使用的数据库表结构和功能
+
+## SpringBoot 学习篇
+
+> PassJava 中一些功能的技术要点解析
+
+- [05.SpringBoot整合Jdbc](http://www.passjava.cn/#/03.SpringBoot学习篇/spring-boot-05-data-jdbc.md)
+- [06.SpringBoot整合Druid](http://www.passjava.cn/#/03.SpringBoot学习篇/spring-boot-06-data-druid.md)
+- [07.spring-boot-05-data-jdbc](http://www.passjava.cn/#/03.SpringBoot学习篇/spring-boot-07-data-mybatis.md)
+- [08.SpringBoot Mybatis逻辑删除](http://www.passjava.cn/#/03.SpringBoot学习篇/08.SpringBoot-Mybatis逻辑删除.md)
+- [09.Object划分](http://www.passjava.cn/#/03.SpringBoot学习篇/09.Object划分.md)
+
+## 部署篇
+
+> PassJava 开发及生产环境的搭建
+
+- [01.快速搭建Linux环境-运维必备](http://www.passjava.cn/#/05.安装部署篇/01.环境搭建篇)
+- [02.配置虚拟机网络](http://www.passjava.cn/#/05.安装部署篇/02.配置虚拟机网络)
+- [03.安装Docker](http://www.passjava.cn/#/05.安装部署篇/03.安装docker)
+- [04.Docker安装mysql](http://www.passjava.cn/#/05.安装部署篇/04.docker安装mysql)
+- [05.Docker安装redis](http://www.passjava.cn/#/05.安装部署篇/05.docker安装redis)
+- [06.本地开发环境配置](http://www.passjava.cn/#/05.安装部署篇/06.本地开发环境配置)
+- [07.配置Git](http://www.passjava.cn/#/05.安装部署篇/07.配置git)
+
+## 架构图解
+  
+- [01.微服务架构中的两款流量防卫兵](http://www.passjava.cn/#/89.架构图解/01.微服务架构中的两款流量防卫兵.md)
+
+## LeetCode刷题
+- [LeetCode数组第一题](http://www.passjava.cn/#/92.LeetCode算法题/01.数组/001.两数之和-数组-LeetCode第1题)
+
+
+## 公众号
+
+PassJava 项目全套学习教程连载中，关注公众号「**PassJava666**」第一时间获取。
+
+![公众号图片](http://cdn.jayh.club/blog/20200910/dBsGAx0fBgC2.png?imageslim)
