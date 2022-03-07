@@ -1,7 +1,7 @@
 <!--
  * @Author: Alan
  * @Date: 2021-10-31 12:36:56
- * @LastEditTime: 2022-03-07 17:04:26
+ * @LastEditTime: 2022-03-07 17:49:00
  * @LastEditors: Alan
  * @Description: 
  * 
@@ -10,11 +10,10 @@
 * [备战面试]()
   
 * 大数据开发
-
-  * [Hadoop](./docs/b-1面试题总结-Java基础.md)
-  * [Hive](./docs/b-2Java集合.md)
-  * [HBase](./docs/b-3Java多线程.md)
-  * [HBase之Phoenix](./docs/b-4jvm.md)
+  * [Hadoop]()
+  * [ Hive ]()
+  * [ HBase ]()
+  * [ HBase之Phoenix ]()
 
 * Java开发
 
