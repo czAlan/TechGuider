@@ -1,7 +1,7 @@
 <!--
  * @Author: Alan
  * @Date: 2021-10-31 12:36:56
- * @LastEditTime: 2022-03-07 19:35:35
+ * @LastEditTime: 2022-03-12 15:41:13
  * @LastEditors: Alan
  * @Description: 
  * 
@@ -13,8 +13,10 @@
 
   * [Hadoop](./content/b-1面试题总结-Java基础.md)
   * [Hive](./content/b-2Java集合.md)
-  * [HBase](./content/b-3Java多线程.md)
+  * [HBase](./content/Hbase/basic.md)
   * [HBase之Phoenix](./content/b-4jvm.md)
+  * [Kafa基础](./content/Kafka/basic.md)
+  * [Kafka进阶](./content/Kafka/progress.md)
 
 * Java开发
 
